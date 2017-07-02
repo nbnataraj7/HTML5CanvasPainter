@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="Viewport" content="initial-scale:1">
+        <script src="jquery.min.js"></script>
+        <script src="index.js"></script>
+        <script src="Painter.js"></script>
+        <script src="Dragger.js"></script>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body>
+        <div class="canvasBoard">
+            <canvas id="canvasDemo" height="100%" width="100%"/>
+        </div>
+        <div id="toolbar" class="toolbar">
+            <div id="eraseAll" class="toolbar-item">
+            </div>
+            <div id="colorPicker" class="toolbar-item">
+                <input type="color" id="colorPickerInput"/>
+            </div>
+            <span id="showSlider"></span>
+            <div id="lineWidthSlider" class="toolbar-item">
+                <div id="lineWidth">1</div>
+                <input type="range" id="lineWidthSetting" class="toolbar-item" value="1"/>
+            </div>
+        </div>
+    </body>
+</html>
